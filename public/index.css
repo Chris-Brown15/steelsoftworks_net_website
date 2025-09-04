@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'ForcedSquare';
+	src: url("FORCED_SQUARE.ttf");
+}
+
+@font-face {
+	font-family: 'TerminalF4';
+	src: url("Terminal_F4.ttf");
+}
+
+
+@font-face {
+	font-family: 'CallingCode';
+	src: url("CallingCode-Regular.ttf");
+}
+
+body {
+	background-color: black;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+header {
+	background-color: black;
+}
+
+h1 {
+	font-family: 'ForcedSquare', sans-serif;	
+	-webkit-text-fill-color: black;
+  	-webkit-text-stroke-color: darkred;
+  	-webkit-text-stroke-width: 1.00px; 
+  	background: black;
+  	font-size: 108px;
+  	padding: 0px;
+}
+
+p {
+	font-family: 'TerminalF4' , sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+label {
+	font-family: 'TerminalF4' , sans-serif;	
+}
+
+.code-text {
+	font-family: 'CallingCode';
+	-webkit-text-fill-color: green;
+	font-size: 17px;
+}
+
+#infoParagraphs {
+	background-color: black;	
+	-webkit-text-fill-color: gray;
+  	-webkit-text-stroke-color: gray;
+	font-size: 24px;
+}
+
+#introParagraph {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hr {
+	margin-top: 75px;
+	margin-bottom: 75px;
+	border: 2px solid darkred;
+}
+
+.projectDiv h2, details > summary {
+	font-family: 'ForcedSquare', sans-serif;	
+	-webkit-text-fill-color: black;
+  	-webkit-text-stroke-color: darkred;
+  	-webkit-text-stroke-width: 1.0px; 
+  	font-size: 54px;
+}
+
+.projectDiv details > summary {
+  	-webkit-text-stroke-width: 2.5px; 
+  	
+}
+
+.projectDiv details > summary {
+    list-style-type: '>';
+}
+
+.projectDiv details[open] > summary {
+    list-style-type: 'v';
+}
+
+.projectDiv img {
+	width: 427px;
+	height: 154px;
+  	padding: 15px 75px;
+}
+
+.projectDiv p {	
+	-webkit-text-fill-color: gray;	
+  	padding: 5px 75px;
+	font-size: 19px;
+}
+
+footer {
+	vertical-align: middle;
+}
+
+footer label {	
+	-webkit-text-fill-color: gray;	
+}
+
+#githubImage {
+	width: 16px;
+	height: 16px;
+}
+
+#email-image {
+	filter: invert(100%);
+}
